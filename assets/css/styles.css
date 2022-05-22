@@ -1,0 +1,47 @@
+:root {
+    --primary-color: rgb(146, 69, 146);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--primary-color);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+}
+
+header {
+    font-size: 25px;
+}
+
+header, form {
+    min-height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input,  form button {
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background-color: white;
+}
+
+form button {
+    color: var(--primary-color);
+    padding: 8px 20px 8px 20px;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+
+form button:hover {
+    background: rgb(233, 118, 233);
+    color: white;
+}
