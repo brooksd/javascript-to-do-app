@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&family=Poppins:wght@300&display=swap');
+
 :root {
     --primary-color: rgb(146, 69, 146);
 }
@@ -71,6 +73,11 @@ form button:hover {
 
 .todo li {
     flex: 1;
+}
+
+.todoItem {
+    padding: 0rem 0.5rem;
+    margin: 5px;
 }
 
 .binBtn, .completeBtn {
